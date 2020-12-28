@@ -1,0 +1,57 @@
+body{
+    background-color: lightgray;
+}
+h1{
+    color: #2c2a2a;
+}
+h2{
+    color:darkblue;
+}
+h3{
+    color:black;
+}
+h4{
+    color:darkslategrey;
+}
+p{
+    color: #201f1f
+}
+footer{
+    color: black;
+    background-color:lightcyan;
+}
+section{
+    background-color: white;
+}
+header{
+    background-color: lightcyan;
+}
+.hotpink-header{
+    color: hotpink;
+}
+#top{
+  background-color: #9b9797;  
+
+}
+a{
+    color:#36992d;
+}
+header a{
+    color:black;
+}
+#name{
+    color: red;
+}
+.styl1{
+    color: red;
+}
+.styl2{
+ color: darkorange;
+}
+.sekcja1{
+    color: black;
+   
+}
+
+
+
