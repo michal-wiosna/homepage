@@ -31,47 +31,47 @@
         <section>
             <h2> Co zawierał tydzień 4 kursu WTF - główne aspekty </h2>
             <article>
-                <p> <b>1. </b> W drugiej lekcji został pokazany GIT. Dokonaliśmy instalacji zalogowania się i zapisania swoich danych. <br/>
-                Kolejnym krokiem było wykorzystanie gita do rzeczywistego działania. Należało wejść do konsoli i w folderze homepage stworzyć repozytorium. <br/>
-                Polecenia: <br/>
-               - Mozna sprawdzic uzytkownika wpisujac "git config --get user.name" oraz mail "git config --get user.email" - można nadpisywać te dane. <br/>
-               - Stworzenie repozytorium to "git init" - pusty katalog ukryty został stworzony. <br/>
-               - Wypisanie rzeczy co moze byc zapisane (sledzi te pliki) to "git status"<br/>
-               - Zapisanie plikow z katalogu w ktorym jestesmy do repozytorium to "git .add". <br/> 
-               - Potem "git status" pokaze ktore pliki sa do commitowania (zapisania zmian). <br/>
-               - Polecenie "git commit -m "nazwa zmiany" zapisuje zmiany do repo i po klikniecu ENTER pokazuje co zostalo zapisane. <br/>
-               - Polecenie "git k" uruchamia GITa i pokazuje zmiany </p>
-              
-               <p>2. Została pokazana druga lekcja z HTML, gdzie głównie poznałem możliwości podlinkowania innej strony
-                    w tekście, podliknowania podstrony na danej stronie czy wrzucenie zdjęcia</p>
-                <p>3. Była lekcja o nazywaniu klas, zmiennych. Są główne 3 warianty: camelCase, kebab-case, snake_case,
-                    PascalCase </p>
-                <p>4. Była druga lekcja o CSS. Poznałem stylowanie za pomocą podlikowanego pliku style.css. Dzięki
-                    zewnętrzemu plikowi styli CSS można pogrupować poszczególne rekordy czy klasy w htmlu takie jak
-                    kolor tekstu, kursywa, grubość, stylowanie koloru tła tekstu, tła sekcji itd.
-                    Do nadania odpowiednich reguł potrzebne są "selektory". <br>
-                    Wyróżniamy selektory <br />
-                    - klasy: który wywołuje sie w CSS jako ".name { wlasciwosc: wartosc" } <br />
-                    - id: ktory sie wywoluje jako "#name {....}" <br />
-                    - zwykłe wywołanie po np "h1 {color: blue;}" <br />
-                <p>5. Maciek omówił jak działa internet, kiedy pojawia się słynny "błąd 404", gdzie można podejrzeć
-                    informacje czy strona właściwie się załadowuje po odpytaniu ścieżki do serwera. Np: kod -30x (np
-                    301), mówi o tym, że błędnie szukasz ale że dobrze przekieruje, kod -404 mówi o tym, że nie ma
-                    czegoś na serwerze o co zapytujemy, błąd -50x to błąd serwera, czyli błąd hardware'u.
-                    Są to ciekawe informacje, dzięki którym można poznać tajniki działania internetu już od samego
-                    początku</p>
-                <p>6. Poznałem podstawy JavaScript poprzez dodanie nowego pliku "main.js" gdzie zdefiniowaliśmy alert
-                    który zosatje wyrzucony jako okienko podczas wejścia na stronę.
-                    Plik .js powinien być podpięty na końcu HTMLa po stopce footer przed końcem body. Alert jest opcją
-                    dosyć irytującą. Poznałem też opcję console.log('lala'); która wyrzuca daną z nawiasu, która się
-                    pojawia w narzedziach developerskich na zakładce "Console"
-                    Kolejną rzeczą to było dodanie zmiennej const name='firstName' co było mozliwe później do wywołania
-                    poprzez formule np "console.log(`Nazywam sie ${firstName} i mam ${age} lat`);"
+                <p class="styl3"> <b>1. </b> W drugiej lekcji został pokazany GIT. Dokonaliśmy instalacji zalogowania się i zapisania
+                    swoich danych. <br />
+                    Kolejnym krokiem było wykorzystanie gita do rzeczywistego działania. Należało wejść do konsoli i w
+                    folderze homepage stworzyć repozytorium. <br />
+                    Polecenia: <br />
+                    - Mozna sprawdzic uzytkownika wpisujac "git config --get user.name" oraz mail "git config --get
+                    user.email" - można nadpisywać te dane. <br />
+                    - Stworzenie repozytorium to "git init" - pusty katalog ukryty został stworzony. <br />
+                    - Wypisanie rzeczy co moze byc zapisane (sledzi te pliki) to "git status"<br />
+                    - Zapisanie plikow z katalogu w ktorym jestesmy do repozytorium to "git .add". <br />
+                    - Potem "git status" pokaze ktore pliki sa do commitowania (zapisania zmian). <br />
+                    - Polecenie "git commit -m "nazwa zmiany" zapisuje zmiany do repo i po klikniecu ENTER pokazuje co
+                    zostalo zapisane. <br />
+                    - Polecenie "git k" uruchamia GITa i pokazuje zmiany <br />
+                    Została pokazana możliwośc weryfikacji zmian kodu w edytorze VisualCode po instalacji "git lens" -
+                    teraz na zakładce z 3 kropkami możemy zobaczyc zmiany, wstawione commity i rożnice pomiedzy
+                    commitami w kodzie </p>
+
+                <p class="styl4"><b>2.</b> W trzeciej lekcji założylismy konto na GitHub - serwer to wyrzucania kodu z repozytorium z
+                    komputera na serwer w internecie. <br />
+                    Takie konto służy również jako "wizytówka" programisty. Pokazywane są wszelkie wprowadzane zmiany,
+                    często rekruterzy sprawdzają tak nasze prace. <br />
+                    Konto zostało założone na login "michal-wiosna" (system kebabcase), haslo to dobrze znane
+                    uzytkownikowi ;), a mail jest ten sam pod jakim konfigurowaliśmy GITa !!! <br />
+                    Po zalogowaniu do konta dodaliśmy nowe repozytorium "homepage" Skopiowane zostały 3 linijki kodu do
+                    konsoli. Niestety na kursie były 2 linijki z wypychaniem do branch'a "master" - u mnie to sie
+                    zrobiło do brancha "main" -- tu nie wiadomo czy bedzie ok <br />
+                    Po wpisaniu tych 3 linii, pojawia sie komunikat o wpisaniu logina i hasła uzytkownika z GitHuba.
+                    Generalnie wszystko zostało "wypchnięte" na GitHub (podpięcie zdalnego githuba do lokalnego) i można
+                    weryfikować kolejne kroki commitowania i
+                    puschowania kodu i zmian na repo <br />
+                    Jeżeli dochodzi do zmian w kodzie i chcemy go zapisac i wypchnac na serwer to dajemy w konsoli
+                    kolejno "git .add", potem "git commit -m "new changes in code", potem "git status" (i widac
+                    komunikat ze nasz projekt zapisany lokalnie jest o jedno mniej niz na github na serwerze), wtedy
+                    wpisujemy "git push" i to nam wyrzuca na serwer. <br />
+
+                    <p><b>3.</b> W czwartej lekcji .....
+
+
                 </p>
-                <p>7. Ostatnią rzeczą było poznanie terminala. To znaczy że przez wiersz poleceń "cmd" można wchodzić w
-                    poszczególne katalogi "cd katalog", a do dysku C to polecenie "cd C:\", wyświetlać zawartość "dir" i
-                    tworzyć nowe foldery w nich, po czym wychodzić wyżej do innych katalogów, uruchomić VisualStudio
-                    poprzez komende "c .." </p>
+
 
             </article>
 
