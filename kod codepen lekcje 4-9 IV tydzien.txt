@@ -1,0 +1,82 @@
+<div class="box">
+     <div class="secondary-box" </div>
+ WTF: Co ten frontend?! </br>
+WTF: Co ten frontend?! </br>
+WTF: Co ten frontend?! </br>
+
+</div>  
+     <div class="secondary-box" </div>
+ WTF: Co ten frontend?! </br>
+WTF: Co ten frontend?! </br>
+WTF: Co ten frontend?! </br>
+
+</div> 
+     <div class="absolute" </div>
+ WTF: Co ten frontend?! </br>
+WTF: Co ten frontend?! </br>
+WTF: Co ten frontend?! </br>
+
+</div> 
+</div> 
+     <div class="absolute1" </div>
+ WTF: Co ten frontend?! </br>
+WTF: Co ten frontend?! </br>
+WTF: Co ten frontend?! </br>
+
+</div>
+<div> testlalalalla </div>
+<div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div><div> testlalalalla </div>
+
+
+-----------------------------------------------------------------
+
+
+body {
+  background: #2D2241;
+  color: #fff;
+}
+.box {
+  background: rgba(255,255,255,0.3);
+  overflow: auto;
+  width: 80vw;
+  height: 700px;
+  margin: 10px auto;
+  position: relative;
+ 
+}
+
+.secondary-box {
+  background: #fff;
+  color: #123456;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  overflow: auto;
+  padding: 20px;
+  border: 5px solid hotpink;
+  border-radius: 15px;
+  margin: 10px;
+  box-sizing: border-box
+}
+
+.absolute {
+  background: rgba(255,255,255,0.3);
+  position: fixed;
+  left: 80px;
+  right: 50px; 
+  top: 20%;
+  z-index: 1500;
+}
+.absolute1 {
+  background: black;
+   position: sticky;
+  clear: both;
+  color: yellow;
+  left: 10px;
+  width: 200px;
+  top: 50%;
+  bottom: 10%;
+  z-index: 400;
+  overflow: hidden;
+
+}

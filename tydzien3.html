@@ -1,104 +1,114 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="nauka-html.html">Nauka html</a>
-            <a href="tydzien4.html">Tydzien 4</a>
-        </nav>
+      <nav>
+        <a href="index.html">Strona główna</a>
+        <a href="nauka-html.html">Nauka html</a>
+        <a href="tydzien4.html">Tydzien 4</a>
+      </nav>
     </header>
 
     <main>
-        <header id="top">
-            <h1> Tydzien 3 kursu WTF </h1>
-        </header>
+      <header id="top">
+        <h1>Tydzien 3 kursu WTF</h1>
+      </header>
 
-        <section>
-            <h4> <a href="#notatki">Notatki</a> </h4>
-            <h4> <a href="#kontakt">Kontakt</a> </h4>
-        </section>
+      <section>
+        <h4><a href="#notatki">Notatki</a></h4>
+        <h4><a href="#kontakt">Kontakt</a></h4>
+      </section>
 
-        <section>
-            <h2> Co zawierał tydzień 3 kursu WTF - główne aspekty </h2>
-            <article>
-                <p> <b>1. </b> Została przedstawiona platforma Trello, na której można tworzyć zadania, dzielić je na
-                    sekcje po czym monitorować postępy swoich prac, poprzez przesuwanie wcześniej dodanych rekordów do
-                    odpowiednich pól jako "do zrobienia", "w trakcie", "zrobione'</p>
-                <p>2. Została pokazana druga lekcja z HTML, gdzie głównie poznałem możliwości podlinkowania innej strony
-                    w tekście, podliknowania podstrony na danej stronie czy wrzucenie zdjęcia</p>
-                <p>3. Była lekcja o nazywaniu klas, zmiennych. Są główne 3 warianty: camelCase, kebab-case, snake_case,
-                    PascalCase </p>
-                <p>4. Była druga lekcja o CSS. Poznałem stylowanie za pomocą podlikowanego pliku style.css. Dzięki
-                    zewnętrzemu plikowi styli CSS można pogrupować poszczególne rekordy czy klasy w htmlu takie jak
-                    kolor tekstu, kursywa, grubość, stylowanie koloru tła tekstu, tła sekcji itd.
-                    Do nadania odpowiednich reguł potrzebne są "selektory". <br>
-                    Wyróżniamy selektory <br />
-                    - klasy: który wywołuje sie w CSS jako ".name { wlasciwosc: wartosc" } <br />
-                    - id: ktory sie wywoluje jako "#name {....}" <br />
-                    - zwykłe wywołanie po np "h1 {color: blue;}" <br />
-                <p>5. Maciek omówił jak działa internet, kiedy pojawia się słynny "błąd 404", gdzie można podejrzeć
-                    informacje czy strona właściwie się załadowuje po odpytaniu ścieżki do serwera. Np: kod -30x (np
-                    301), mówi o tym, że błędnie szukasz ale że dobrze przekieruje, kod -404 mówi o tym, że nie ma
-                    czegoś na serwerze o co zapytujemy, błąd -50x to błąd serwera, czyli błąd hardware'u.
-                    Są to ciekawe informacje, dzięki którym można poznać tajniki działania internetu już od samego
-                    początku</p>
-                <p>6. Poznałem podstawy JavaScript poprzez dodanie nowego pliku "main.js" gdzie zdefiniowaliśmy alert
-                    który zosatje wyrzucony jako okienko podczas wejścia na stronę.
-                    Plik .js powinien być podpięty na końcu HTMLa po stopce footer przed końcem body. Alert jest opcją
-                    dosyć irytującą. Poznałem też opcję console.log('lala'); która wyrzuca daną z nawiasu, która się
-                    pojawia w narzedziach developerskich na zakładce "Console"
-                    Kolejną rzeczą to było dodanie zmiennej const name='firstName' co było mozliwe później do wywołania
-                    poprzez formule np "console.log(`Nazywam sie ${firstName} i mam ${age} lat`);"
-                </p>
-                <p>7. Ostatnią rzeczą było poznanie terminala. To znaczy że przez wiersz poleceń "cmd" można wchodzić w
-                    poszczególne katalogi "cd katalog", a do dysku C to polecenie "cd C:\", wyświetlać zawartość "dir" i
-                    tworzyć nowe foldery w nich, po czym wychodzić wyżej do innych katalogów, uruchomić VisualStudio
-                    poprzez komende "c .." </p>
+      <section>
+        <h2>Co zawierał tydzień 3 kursu WTF - główne aspekty</h2>
+        <article>
+          <p>
+            <b>1. </b> Została przedstawiona platforma Trello, na której można
+            tworzyć zadania, dzielić je na sekcje po czym monitorować postępy
+            swoich prac, poprzez przesuwanie wcześniej dodanych rekordów do
+            odpowiednich pól jako "do zrobienia", "w trakcie", "zrobione'
+          </p>
+          <p>
+            2. Została pokazana druga lekcja z HTML, gdzie głównie poznałem
+            możliwości podlinkowania innej strony w tekście, podliknowania
+            podstrony na danej stronie czy wrzucenie zdjęcia
+          </p>
+          <p>
+            3. Była lekcja o nazywaniu klas, zmiennych. Są główne 3 warianty:
+            camelCase, kebab-case, snake_case, PascalCase
+          </p>
+          <p>
+            4. Była druga lekcja o CSS. Poznałem stylowanie za pomocą
+            podlikowanego pliku style.css. Dzięki zewnętrzemu plikowi styli CSS
+            można pogrupować poszczególne rekordy czy klasy w htmlu takie jak
+            kolor tekstu, kursywa, grubość, stylowanie koloru tła tekstu, tła
+            sekcji itd. Do nadania odpowiednich reguł potrzebne są "selektory".
+            <br />
+            Wyróżniamy selektory <br />
+            - klasy: który wywołuje sie w CSS jako ".name { wlasciwosc: wartosc"
+            } <br />
+            - id: ktory sie wywoluje jako "#name {....}" <br />
+            - zwykłe wywołanie po np "h1 {color: blue;}" <br />
+          </p>
 
-            </article>
+          <p>
+            5. Maciek omówił jak działa internet, kiedy pojawia się słynny "błąd
+            404", gdzie można podejrzeć informacje czy strona właściwie się
+            załadowuje po odpytaniu ścieżki do serwera. Np: kod -30x (np 301),
+            mówi o tym, że błędnie szukasz ale że dobrze przekieruje, kod -404
+            mówi o tym, że nie ma czegoś na serwerze o co zapytujemy, błąd -50x
+            to błąd serwera, czyli błąd hardware'u. Są to ciekawe informacje,
+            dzięki którym można poznać tajniki działania internetu już od samego
+            początku
+          </p>
+          <p>
+            6. Poznałem podstawy JavaScript poprzez dodanie nowego pliku
+            "main.js" gdzie zdefiniowaliśmy alert który zosatje wyrzucony jako
+            okienko podczas wejścia na stronę. Plik .js powinien być podpięty na
+            końcu HTMLa po stopce footer przed końcem body. Alert jest opcją
+            dosyć irytującą. Poznałem też opcję console.log('lala'); która
+            wyrzuca daną z nawiasu, która się pojawia w narzedziach
+            developerskich na zakładce "Console" Kolejną rzeczą to było dodanie
+            zmiennej const name='firstName' co było mozliwe później do wywołania
+            poprzez formule np "console.log(`Nazywam sie ${firstName} i mam
+            ${age} lat`);"
+          </p>
+          <p>
+            7. Ostatnią rzeczą było poznanie terminala. To znaczy że przez
+            wiersz poleceń "cmd" można wchodzić w poszczególne katalogi "cd
+            katalog", a do dysku C to polecenie "cd C:\", wyświetlać zawartość
+            "dir" i tworzyć nowe foldery w nich, po czym wychodzić wyżej do
+            innych katalogów, uruchomić VisualStudio poprzez komende "c .."
+          </p>
+        </article>
+      </section>
 
-        </section>
+      <section id="notatki">
+        <h2>Notatki ze szkolenia WTF - DODATKOWE NOTATKI:</h2>
 
+        <article>
+          <p><i>Tutaj beda wpisywane notatki ze szkolenia</i></p>
+        </article>
 
+        <article></article>
+      </section>
 
-        <section id="notatki">
-            <h2> Notatki ze szkolenia WTF - DODATKOWE NOTATKI: </h2>
-
-            <article>
-                <p><i>Tutaj beda wpisywane notatki ze szkolenia</i></p>
-            </article>
-
-            <article>
-
-
-            </article>
-        </section>
-
-
-
-        <a href="#top">Przejdź na górę</a>
-
+      <a href="#top">Przejdź na górę</a>
     </main>
 
     <footer>
-        <article>
-            <h3 id="kontakt">Kontakt</h3>
-            <h4>phone: 505 310 352 </h4>
-            <h4> email: michal.wiosna93@gmail.com </h4>
-        </article>
+      <article>
+        <h3 id="kontakt">Kontakt</h3>
+        <h4>phone: 505 310 352</h4>
+        <h4>email: michal.wiosna93@gmail.com</h4>
+      </article>
     </footer>
-
-
-</body>
-
+  </body>
 </html>
