@@ -13,5 +13,5 @@ console.log(`Nazywam sie ${firstName} i mam  ${age} lat`);
 
 const heading = document.querySelector('.main-heading--js');
 
-heading.innerHTML = 'Nazywam sie ${firstName} i mam ${age} lat'
+// heading.innerHTML = 'Nazywam sie ${firstName} i mam ${age} lat'
 console.log(heading);

@@ -1,75 +1,129 @@
 body {
-  background-color: lightgray;
-}
-h1 {
-  color: #2c2a2a;
-}
-h2 {
-  color: darkblue;
-}
-h3 {
-  color: black;
+  background-color: rgba(0,0,0,0);
 }
 
-p {
-  color: #0e0a0a;
+main {
+width: 1000px;
+margin: auto;
+
 }
-footer {
-  color: black;
-  background-color: lightcyan;
-}
-section {
-  background-color: white;
-}
-.hotpink-header {
-  color: hotpink;
-}
-#top {
-  background-color: #9b9797;
-}
-a {
-  color: #36992d;
-}
-header a {
-  color: black;
-}
-#name {
-  color: red;
-}
-.styl1 {
-  color: red;
-}
-.styl2 {
-  color: darkorange;
-}
-.sekcja1 {
-  color: black;
-}
-.styl3 {
-  background-color: aliceblue;
-  padding: 10px
-}
-.styl4 {
-  background-color: rgb(181, 209, 233);
-  padding: 10px
-}
+
 .navigation {
-    background: #569481;
-    padding: 16px;
-    border-radius: 8px;
+  background: lightgray;
+  padding: 16px;
+  border-radius: 1px;
+
+  border: 3px black solid;
+  min-width: 400px;
+
+
 }
 
 .navigation__link {
-    color: #fff;
-    display: inline-block;
-    margin-right: 20px;
-    border: 1px #ccc solid;
+  color: black;
+  display: inline;
+  margin-right: 20px;
+  border: 1px #ccc solid;
+  
+  
 }
-.navigation__link--homepage  {
-background-color: red;
+.navigation__link--homepage {
+
+  min-width: 400px;
 }
 
-.main-heading main-heading--js {
-  padding: 20px;
-  color: hotpink
+.main__heading {
+
+  background-color: #d5d9df;
+  max-width: 1000px;
+  min-width: 400px;
+  margin: 2px;
+  padding: 10px;
+  margin: 0 auto;
+  
+ 
+
+}
+.main__heading--js {
+
+  padding: 10px;
+  color: black;
+  font-size: 35px;
+  font-family: "helvetica"
+ 
+}
+
+.main__about--me {
+  color: black;
+
+}
+
+.main__about--me--header {
+  padding: 5px;
+  background-color: lightsalmon;
+  font-family: "helvetica";
+
+}
+
+.main_about--foto {
+  height: 40vh;
+  
+}
+
+.main__notes {
+  padding: 5px;
+  
+}
+
+.main__footer {
+  background-color: black;
+  color: white;
+  font-family: "calibri";
+
+}
+.main_footer--foto {
+width: 15vw;
+height: 5vw;
+
+}
+
+.link__buttons {
+color: black;
+background-color: lightgoldenrodyellow;
+font-family: Verdana;
+border: 3px black solid;
+padding: 3px;
+margin: 2px;
+
+}
+
+.left__border {
+  background-color: blanchedalmond;
+  width: 240px;
+  height: 1000px;
+  top: 70px;
+  left: 5px;
+  bottom: 10%;
+  position: absolute;
+  overflow: hidden;
+  clear: both;
+  display: inline-block;
+
+}
+
+.left__border--text {
+  padding: 10px;
+  color: black;
+  font-family:Verdana
+}
+
+p {
+  padding: 5px 10px;
+  
+}
+h3 {
+  padding: 0px 10px;
+}
+h4 {
+  padding: 5px 10px;
 }

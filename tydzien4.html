@@ -9,27 +9,23 @@
 
   <body>
     <header>
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="nauka-html.html">Nauka html</a>
-        <a href="tydzien3.html">Tydzien 3</a>
+      <nav class="navigation" id="top">
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="nauka-html.html">Nauka html</a>
+        <a class="navigation__link" href="tydzien3.html">Tydzien 3</a>
       </nav>
     </header>
 
     <main>
-      <header id="top">
+      <header class="main__heading">
         <h1>Tydzien 4 kursu WTF</h1>
       </header>
 
       <section>
-        <h4><a href="#notatki">Notatki</a></h4>
-        <h4><a href="#kontakt">Kontakt</a></h4>
-      </section>
+        <article class="main__about--me"> 
+        <h2 class="main__about--me main__about--me--header">Co zawierał tydzień 4 kursu WTF - główne aspekty</h2>
 
-      <section>
-        <h2>Co zawierał tydzień 4 kursu WTF - główne aspekty</h2>
-        <article>
-          <p class="styl3">
+          <p>
             <b>1. </b> W drugiej lekcji został pokazany GIT. Dokonaliśmy
             instalacji zalogowania się i zapisania swoich danych. <br />
             Kolejnym krokiem w tej lekcji było wykorzystanie gita do
@@ -56,7 +52,7 @@
             commitami w kodzie
           </p>
 
-          <p class="styl4">
+          <p>
             <b>2.</b> W trzeciej lekcji założylismy konto na GitHub - serwer to
             wyrzucania kodu z repozytorium z komputera na serwer w internecie.
             <br />
@@ -86,15 +82,15 @@
           <p>
             <b>3.</b> W czwartej i piatej lekcji zostały opisane kolejne funkcje
             dot stylowania w css. Miedzy innymi pokazano znacznik div w HTML
-            zamiast np section i dodalismy do niego pewna klase. Ta klasa
+            zamiast np section i dodalismy do niego pewna klase. <br /> Ta klasa
             zostala wywolana w CSS i wykorzystana jako okienko (box) i dodane
             opcje takie jak "min-width", "min-height", analogicznie z max co
             zapisuje sie np "max-width = 500px; same wartosci height, width oraz
             "overflow jako :hidden; lub :auto; wtedy pojawia sie pasek zawijania
             w boxie gdy zmniejszamy przegladarke. Kolejna rzecz to wyswietlanie
-            w postaci boxu jako "display: inline-block; lub "display: inline;
+            w postaci boxu jako "display: inline-block; lub "display: inline; <br />
             Jednostki w CSS to np 50px; czyli piksele a mamy tez np "width=50%"
-            wtedy to jest zawsze szerokosc 50% calego pola rodzica. Ciekawa
+            wtedy to jest zawsze szerokosc 50% calego pola rodzica. <br /> Ciekawa
             opcja jest tez jednostka "vw"-view port width lub "vh"- view port
             height - tutaj mamy do czynienia z jednostka odnoszaca sie do
             procentów, ale w odniesieniu to aktualnego widzianego okna, a nie
@@ -104,7 +100,7 @@
           <p>
             <b>4.</b> W szóstej lekcji została opisana parametryzacja boxów
             czyli: padding, border i margin jako dodatkowe pola dla których
-            można zdefiniować wymiary pól. Można wpisać m.in dane: padding: 20px
+            można zdefiniować wymiary pól. <br /> Można wpisać m.in dane: padding: 20px
             40px 50px 15px; border: 10px solid hotpink; border-radius: 15px;
             margin: 15px; margin: 20px auto;
           </p>
@@ -114,9 +110,9 @@
             poprzez nowe własności: position:relative (zalezny od diva),
             absolute (absolutny wzgledem widoku strony) oraz sticky (jako
             przepływający na ekranie gdy przesuwamy dalej), lub fixed (jako
-            zablokowany w przestrzeni). Dodatkowo opcja z-index: np 100; oznacza
+            zablokowany w przestrzeni). <br /> Dodatkowo opcja z-index: np 100; oznacza
             to ze ktora własnośc ma wyzszy z-index to jest ponad resztą w
-            widoku. Kolejna własność to float: left; lub right; lub po prostu
+            widoku.  <br /> Kolejna własność to float: left; lub right; lub po prostu
             właność overflow: hidden; to daje opływanie tekstu czy zawartosci
             wokoł wstawionego elementu gdzie nadajemy tą własność
           </p>
@@ -126,22 +122,22 @@
             '2'. Odczytywanie typu zmiennej to znaczy czy to string czy number
             czy boolean to wpisanie - typeof firstName co da nam w kolejnej
             linii info co to jest Mozna tez przypisywac zmienne np let y = x
-            tylko ta wartosc jest przypisywana do deklaracji powyzej. Jezeli
+            tylko ta wartosc jest przypisywana do deklaracji powyzej. <br /> Jezeli
             opnizej damy x = inna wartosc, to znow nalezaloby przyrownac y do
             tej wartosci zmienionej x - czyli to porownywanie jest to wczsniej
             zadeklarowanej wartosci a nei do zmiennej To sie nazywa
-            "immutability", czyli niezmienność. Kolejna rzecza bylo
+            "immutability", czyli niezmienność. <br /> Kolejna rzecza bylo
             zainstalowanie dodatku "Prettier", ktory to po instalacji dziala pod
-            formatowaniem tekstu czyli Ctrl + Shift + P. Przy pierwszym uzyciu
+            formatowaniem tekstu czyli Ctrl + Shift + P. <br /> Przy pierwszym uzyciu
             wywala blad i trzeba w bledzie wejsc w konfiguracje by podpiac
-            "prettier" pod formatowanie. Ostatnim dodatkiem to byla instalacja
+            "prettier" pod formatowanie. <br /> Ostatnim dodatkiem to byla instalacja
             "live server", dzieki czemu w przegladarce mamy inny wpis
             http://127.0.0.1:5500/index.html zamiast linku do dysku. Daje nam to
             rowniez ciągłą aktualizacje zmienaninego tekstu, czyli juz nie
-            trzeba odświeżać strony za kazdym razem po zmianie. Dodatkowo mozna
+            trzeba odświeżać strony za kazdym razem po zmianie. <br /> Dodatkowo mozna
             wysłać strone np na komorke (musi byc w tej samej sieci wifi) i
             bedzie to w postaci http://192.168.1.11:5500/index.html jako ip
-            komputera + port udostepniania. Na dole na pasku mozemy zawsze
+            komputera + port udostepniania. <br /> Na dole na pasku mozemy zawsze
             wlaczyc/wylaczyc lokalny serwer klikajac z prawej strony na dolnym
             niebieskim pasku "Go Live", a potem kliknac w "Port:5500" by
             wylaczyc lokalny serwer.
@@ -150,19 +146,16 @@
       </section>
 
       <section id="notatki">
-        <h2>Notatki ze szkolenia WTF - DODATKOWE NOTATKI:</h2>
-
-        <article>
+        <article class="main__about--me">
+          <h2 class="main__about--me main__about--me--header">Notatki ze szkolenia WTF - DODATKOWE NOTATKI:</h2>
           <p><i>Tutaj beda wpisywane notatki ze szkolenia</i></p>
         </article>
-
-        <article></article>
       </section>
 
-      <a href="#top">Przejdź na górę</a>
+      <a class= "link__buttons" href="#top">Przejdź na górę</a>
     </main>
 
-    <footer>
+    <footer class="main__footer">
       <article>
         <h3 id="kontakt">Kontakt</h3>
         <h4>phone: 505 310 352</h4>
