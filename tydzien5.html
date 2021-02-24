@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navigation" id="top">
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="nauka-html.html">Nauka html</a>
+        <a class="navigation__link" href="tydzien3.html">Tydzien 3</a>
+        <a class="navigation__link" href="tydzien4.html">Tydzien 4</a>
+      </nav>
+    </header>
+
+    <main>
+      <header class="main__heading">
+        <h1>Tydzien 5 kursu WTF</h1>
+      </header>
+
+      <section>
+        <article class="main__about--me"> 
+        <h2 class="main__about--me main__about--me--header">Co zawierał tydzień 5 kursu WTF - główne aspekty</h2>
+
+          <p>
+            <b>1. </b> W pierwszej lekcji omawiane bylo dziedziczenie. <br />
+           Oznacza to, że własność 'inherit' umożliwiała zaczytanie własności z 'rodzica', czyli elementu nadrzednego w html <br />
+            Polecenie przykladowe: <br />
+            Znacznik "main__heading" ma zadane kolor tekstu w css: color: black;. Oznacza to że cały tekst pod tym znacznikiem bedzie czarny.
+            <br /> 
+            Jeżeli dodamy niżej jakis znacznik np: main__heading--manual" i tam zdefniujemy color tekstu np: color: red; wtedy z zasady specyficzności css kolor tekstu bedzie czerwony. <br/>
+            Jeżeli zaś damy tam własność color:inherit; wtedy zostanei zaczytana włanośc koloru z rodzica czyli bedzie czarny mimo innych zapisków
+            
+          </p>
+          
+          <p>
+            <b>2. </b> W drugiej lekcji omawiane było definiowanie funkcji w JS. <br />
+           Czyli możemy sobie dokonywać jakiejś kalkukacji, czy wypisania danych zaczytanych i przeliczonych w danej funkcji w JS <br />
+          
+            
+          </p>
+
+         
+        </article>
+      </section>
+
+      <section id="notatki">
+        <article class="main__about--me">
+          <h2 class="main__about--me main__about--me--header">Notatki ze szkolenia WTF - DODATKOWE NOTATKI:</h2>
+          <p><i>Tutaj beda wpisywane notatki ze szkolenia</i></p>
+        </article>
+      </section>
+
+      <a class= "link__buttons" href="#top">Przejdź na górę</a>
+    </main>
+
+    <footer class="main__footer">
+      <article>
+        <h3 id="kontakt">Kontakt</h3>
+        <h4>phone: 505 310 352</h4>
+        <h4>email: michal.wiosna93@gmail.com</h4>
+      </article>
+    </footer>
+  </body>
+</html>

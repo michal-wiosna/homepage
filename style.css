@@ -40,8 +40,9 @@ margin: auto;
   margin: 2px;
   padding: 10px;
   margin: 0 auto;
+  font-size: 15px;
+  font-family: "helvetica"
   
- 
 
 }
 .main__heading--js {
@@ -117,9 +118,13 @@ margin: 2px;
   font-family:Verdana
 }
 
+.main__about--me--js {
+border: 4px black solid;
+}
 p {
   padding: 5px 10px;
   border: 1px black solid;
+
 }
 h3 {
   padding: 0px 10px;
