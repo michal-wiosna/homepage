@@ -30,4 +30,21 @@ console.log(`A teraz otrzymalem ${myResult} po wykonaniu dzialania`);
 function greet(age, firstName) {
   console.log(`Nazywam sie ${firstName} i mam  ${age} lat`);
 }
-greet(28, "Michwisn");
+greet(29, "Michwisn");
+
+
+function calculate2(myNumber1) {
+  myNumber1 = myNumber1 - 1;
+  console.log(`Mamy ${myNumber1}`)
+  return myNumber1;
+
+}
+const myNumber2 = calculate2(12) + 1;
+console.log(`a teraz jest ${myNumber2}`)
+ 
+
+function createContent(querySelectorContent, content) {
+  const element = document.querySelector(querySelectorContent);
+  element.innerHTML = content;
+}
+createContent(".main__about--me", 'lalalaalalalal');
