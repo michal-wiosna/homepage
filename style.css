@@ -121,6 +121,11 @@ margin: 2px;
 .main__about--me--js {
 border: 4px black solid;
 }
+.main__about--me--js2 {
+border: 4px solid;
+
+}
+
 p {
   padding: 5px 10px;
   border: 1px black solid;

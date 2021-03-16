@@ -15,7 +15,7 @@ heading.innerHTML = `Nazywam sie ${firstName} i mam  ${age} lat`;
 // console.log(heading);
 
 const emptyParagraph = document.querySelector(".main__about--me--js");
-emptyParagraph.innerHTML = `Uzupełnienie treści JavaScriptem`;
+emptyParagraph.innerHTML = "Uzupełnienie treści JavaScriptem";
 
 
 function calculate(myNumber) {
@@ -48,3 +48,85 @@ function createContent(querySelectorContent, content) {
   element.innerHTML = content;
 }
 createContent(".main__about--me", 'lalalaalalalal');
+
+function nowyKontent(znacznik, kontent) {
+  const paragraph = document.querySelector(znacznik);
+  paragraph.innerHTML = kontent;
+}
+
+nowyKontent(".main__about--me--js2", "Tekst wpisany poprzez funkcję 'nowyKontent' ")
+
+
+function helloWorld(one) {
+  console.log(`Witaj dobry czlowieku i ${one}`)
+
+}
+helloWorld("papa");
+
+const calculateX = (myValue) => myValue*10
+//myValue = 10;
+const wynik = calculateX(9);
+console.log(`Wynik działania 'calculateX' to ${wynik}`)
+
+// obiektowość tydzień V, lekcja 4
+
+
+const deathStar = {
+  diameter: 12000,
+  fire: (target) => {
+    console.log(`${target} destroyed`)
+  },
+  isOperating: true,
+  name: 'Death Star',
+  levels: 357,
+  population: 10000,
+  isLighton: true,
+  commander: {
+    name: 'Darth Vader',
+    age: 44,
+  }
+}
+
+console.log(deathStar.name)
+console.log(deathStar.commander.name)
+deathStar.fire('Rebel ship')
+console.log(deathStar['name'])
+
+const myProperty = 'name'
+const showMeProperty = (myProperty) => {
+  console.log(`Twoja własność to ${myProperty} to ${deathStar[myProperty]}`)
+}
+
+showMeProperty('levels')
+
+
+const humanOne = {
+  name: 'Mrozu',
+  age: 27,
+  address: {
+    street: 'Warszawska',
+    city: 'Białystok',
+  }
+}
+
+const humanTwo = {
+  name: 'Stefan',
+  age: 27,
+  address: {
+    street: humanOne.address.street,
+    city: 'Białystok',
+  } 
+}
+
+humanTwo.age = 35;
+console.log(`Wiek drugiego gościa to ${humanTwo.age}`)
+
+const humanThree = humanOne
+console.log(humanThree)
+
+humanThree.age = 44;
+console.log(humanThree)
+
+humanOne.address.street = 'Lipowa'
+console.log(humanOne)
+console.log(humanTwo)
